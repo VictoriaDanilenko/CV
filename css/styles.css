@@ -18,29 +18,30 @@ body {
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
-/* .sidebar {
-  background: #1e2939;
-  width: 370px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-} */
+
 .sidebar {
   width: 370px;
-  background: linear-gradient(-45deg, #04142c, #087e74, #592a80, #2a1b4e);
+  background: linear-gradient(
+    180deg,
+    rgb(255, 107, 8),
+    rgb(64, 65, 65),
+    rgb(65, 66, 66)
+  );
   background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
-  color: #fff;
+  animation: gradient 8s ease infinite;
+  color: #ffffff;
   padding: 60px 0;
 }
+
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 75%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 50% 30%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 100%;
   }
 }
 
