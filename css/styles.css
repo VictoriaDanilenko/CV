@@ -1,8 +1,11 @@
-* {
-  padding: 0;
+*,
+*::before,
+*::after {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #f5f7fa;
   padding-top: 40px;
@@ -21,12 +24,7 @@ body {
 
 .sidebar {
   width: 370px;
-  background: linear-gradient(
-    180deg,
-    rgb(255, 107, 8),
-    rgb(64, 65, 65),
-    rgb(65, 66, 66)
-  );
+  background: linear-gradient(-45deg, #04142c, #087e74, #592a80, #2a1b4e);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
   color: #ffffff;
@@ -69,30 +67,70 @@ body {
 }
 
 .contact-link {
-  color: #7d848d;
-  font-family: Montserrat;
+  display: flex;
+  color: #ffffff;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   text-decoration: none;
-}
-.contact-link-type {
-  width: 14px;
-  height: 34px;
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-right: 10px;
-  margin-bottom: 20px;
 }
 
 .contact-link:hover {
   color: #ff6b08;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-size: 16px;
 }
+
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+/* .contact-link.phone-icon::before {
+  display: block;
+  content: " ";
+  background-image: url("../img/phone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+} */
+
+/* .contact-link.mail::before {
+  display: block;
+  content: " ";
+  background-image: url("../img/post.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 22px;
+  width: 18px;
+  margin-left: 11px;
+} */
+
+/* .contact-link.lin::before {
+  display: block;
+  content: " ";
+  background-image: url("../img/linkedin.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 22px;
+  width: 22px;
+  margin-left: 10px;
+}
+.contact-link.github::before {
+  display: block;
+  content: " ";
+  background-image: url("../img/github.svg");
+  background-size: 100% 100%;
+  height: 20px;
+  width: 22px;
+  margin-left: 10px;
+} */
 
 .tech-skills-title {
   font-size: 22px;
@@ -159,6 +197,7 @@ body {
   line-height: 24px;
   margin-top: 24px;
   color: #595959;
+  display: none;
 }
 .info-container {
   margin-bottom: 65px;
