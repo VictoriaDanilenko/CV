@@ -22,6 +22,24 @@ body {
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
+.container {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.download-cv-link {
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 10px;
+  color: #ff6b08;
+  text-decoration: none;
+}
+
+.download-cv-link:hover {
+  text-decoration: none;
+  text-decoration: underline;
+}
+
 .sidebar {
   width: 370px;
   background: linear-gradient(-45deg, #04142c, #087e74, #592a80, #2a1b4e);
@@ -68,7 +86,7 @@ body {
 
 .contact-link {
   display: flex;
-  color: #ffffff;
+  color: #a8a8a8;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -87,50 +105,6 @@ body {
   color: #ffffff;
   margin-right: 10px;
 }
-/* .contact-link.phone-icon::before {
-  display: block;
-  content: " ";
-  background-image: url("../img/phone.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  height: 18px;
-  width: 18px;
-  margin-left: 10px;
-} */
-
-/* .contact-link.mail::before {
-  display: block;
-  content: " ";
-  background-image: url("../img/post.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  height: 22px;
-  width: 18px;
-  margin-left: 11px;
-} */
-
-/* .contact-link.lin::before {
-  display: block;
-  content: " ";
-  background-image: url("../img/linkedin.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  height: 22px;
-  width: 22px;
-  margin-left: 10px;
-}
-.contact-link.github::before {
-  display: block;
-  content: " ";
-  background-image: url("../img/github.svg");
-  background-size: 100% 100%;
-  height: 20px;
-  width: 22px;
-  margin-left: 10px;
-} */
 
 .tech-skills-title {
   font-size: 22px;
