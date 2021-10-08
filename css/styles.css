@@ -24,7 +24,7 @@ body {
 
 .download-cv-link {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
   margin-right: 10px;
   color: #ff6b08;
   text-decoration: none;
@@ -62,7 +62,7 @@ body {
 .contact-title {
   font-size: 22px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5;
   margin-bottom: 20px;
   color: #ffffff;
 }
@@ -72,7 +72,7 @@ body {
   color: #bebebe;
   font-size: 14px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ body {
 .contacts-link-type {
   font-size: 14px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5;
   color: #ffffff;
   margin-right: 10px;
 }
@@ -92,7 +92,7 @@ body {
 .tech-skills-title {
   font-size: 22px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5;
   margin-bottom: 20px;
   color: #ffffff;
 }
@@ -106,7 +106,7 @@ body {
   color: #ff6b08;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   margin-left: 15px;
 }
 
@@ -116,7 +116,7 @@ body {
 .soft-skills-title {
   font-size: 22px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5;
   margin-bottom: 20px;
   color: #ffffff;
 }
@@ -130,7 +130,7 @@ body {
   color: #ff6b08;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   margin-left: 15px;
 }
 
@@ -141,16 +141,16 @@ body {
 .profession {
   font-size: 25px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   margin-bottom: 20px;
   color: #202020fd;
 }
 
 .name {
-  margin-bottom: -23px;
+  margin-bottom: -5px;
   font-size: 35px;
   font-weight: 700;
-  line-height: 89px;
+  line-height: 1.5;
 }
 
 .personal {
@@ -163,7 +163,7 @@ body {
 .descripsion {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   margin-top: 24px;
   color: #595959;
 }
@@ -173,20 +173,20 @@ body {
 .about-me-title {
   font-size: 25px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.08;
   margin-bottom: 10px;
 }
 .progects-link {
-  color: #595959;
+  color: #2b2b2b;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 .tech-name {
   color: #595959;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
 }
 .dots {
   color: #d3d3d3;
@@ -195,25 +195,34 @@ body {
 .project-item {
   font-weight: 700;
   margin-left: 15px;
+  line-height: 1.15;
 }
 .project-container {
   margin-bottom: 65px;
 }
+
+.about-project {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #464545;
+}
 .professional-title {
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5;
   margin-top: 10px;
   margin-bottom: 15px;
 }
 .professional-company {
   color: #ff6b08;
 }
+
 .profession-time {
   color: #a8a8a8;
   font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   scroll-margin-bottom: 14px;
 }
 .profession-divider {
@@ -226,7 +235,7 @@ body {
 .professional-duties-item {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   color: #595959;
 }
 .education-container {
