@@ -212,7 +212,7 @@ body {
   font-weight: 700;
   line-height: 1.5;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .professional-company {
   color: #ff6b08;
@@ -229,8 +229,8 @@ body {
   color: black;
 }
 .professional-duties {
-  margin-top: 11px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .professional-duties-item {
   font-size: 14px;
