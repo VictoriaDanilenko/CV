@@ -264,6 +264,10 @@ body {
     margin-top: 60px;
   }
 
+  .download-certificate {
+  text-decoration: none;
+  color: #ff6b086c;
+  
   .download-section-color:hover {
     color: #ff6b08;
   }
